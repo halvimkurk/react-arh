@@ -1,5 +1,5 @@
 .headerSection {
-    background: url('./img/bgHeader.jpg');
+    background: url('./img/bgHeader.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ nav {
 
 @media only screen and (max-width: 415px) {
     .bgHeader {
-        background: url('./img/bgHeaderMobile.jpg');
+        background: url('./img/bgHeaderMobile.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

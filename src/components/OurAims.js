@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import './OurAims.css'
-import sketch from './img/sketchImg.png'
+import sketch from './img/sketchImg.webp'
 
 export default class Phil extends Component {
     render() {

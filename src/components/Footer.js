@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-import fbicon from './img/fbicon.png'
-import insticon from './img/insticon.png'
+import fbicon from './img/fbicon.webp'
+import insticon from './img/insticon.webp'
 import './Footer.css'
 
 export default class Footer extends Component {

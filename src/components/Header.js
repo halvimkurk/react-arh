@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 import './Header.css'
-import fbicon from './img/fbicon.png'
-import insticon from './img/insticon.png'
+import fbicon from './img/fbicon.webp'
+import insticon from './img/insticon.webp'
 
 export default class Header extends Component {
     render() {

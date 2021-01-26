@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import './serviceCard.css'
-import serviceImage1 from './img/serviceImage1.png'
+import serviceImage1 from './img/serviceImage1.webp'
 
 export default class serviceCard extends Component {
     render() {
