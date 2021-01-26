@@ -1,0 +1,39 @@
+.aimsRow {
+    display: flex;
+}
+
+.aimsImage {
+    width: 45%;
+}
+
+.aimsTextSection {
+    margin-left: 2rem;
+}
+
+.aimsTextTitle {
+    color: #292929;
+    margin-bottom: 0.2rem;
+}
+
+.aimsText {
+    color: #292929;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .aimsRow {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .aimsTextSection {
+        margin-left: 0;
+    }
+
+    .aimsImage {
+        display: none;
+    }
+}

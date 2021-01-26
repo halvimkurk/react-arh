@@ -1,0 +1,37 @@
+.cooperationSubContent {
+    max-width: 70%;
+    color: #292929;
+}
+
+.cooperationForm {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.5px solid #292929;
+    background: #E5E5E5;
+    font-family: Ubuntu;
+    font-size: 1.2em;
+    color: #616161;
+}
+
+.sendDataButton {
+    width: 22rem;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #dfdfdf;
+    text-align: center;
+    background: rgba(19, 57, 228, 0.74);
+    border: 0.5px solid #292929;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0.75rem;
+    text-transform: lowercase;
+    cursor: pointer;
+    margin-bottom: 1.75rem;
+}
+
+.sendDataButton:hover {
+    background: rgba(19, 57, 228, 0.966);
+    transition: background-color .8s;
+}

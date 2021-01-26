@@ -1,0 +1,27 @@
+.trustRow {
+    display: flex;
+}
+
+.trustColumn {
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 0 2% 2% 0;
+    background-color: grey;
+}
+
+.trustP {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .trustRow {
+        flex-wrap: wrap;
+    }
+
+    .trustColumn {
+        margin: 0 0 2% 0;
+    }
+
+    .trustP {
+        width: 70%;
+    }
+}

@@ -1,0 +1,86 @@
+.headerSection {
+    background: url('./img/bgHeader.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navLogo {
+    margin-right: auto;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    cursor: pointer;
+}
+
+.navButton {
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    font-weight: 700;
+    background: rgba(102, 102, 102, 0.15);
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 8px;
+    text-transform: lowercase;
+    cursor: pointer;
+}
+
+.headerButton {
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    font-weight: 700;
+    background: rgba(102, 102, 102, 0.15);
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 8px;
+    text-transform: lowercase;
+    cursor: pointer;
+    margin-bottom: 1.75rem;
+}
+
+.headerButton:hover, .navButton:hover {
+    background-color: rgba(86, 111, 114, 0.45);
+    transition: background-color .5s;
+}
+
+.navItem {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.heroText {
+    width: 60%;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+    .navButton {
+        margin-right: 0;
+    }
+
+    .navItem {
+        display: none;
+    }
+
+    .heroText {
+        width: 90%;
+        margin-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .bgHeader {
+        background: url('./img/bgHeaderMobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
